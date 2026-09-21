@@ -4,6 +4,10 @@
     
 */
 -----------------------------------------------------
+*{
+    margin: 0;
+    /* applies to all elements on the page */
+}
 body {
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +21,69 @@ header{
     padding 1.5rem(top) 2.3rem(right) 1.78rem(bottom) 2.8rem(left)
     padding irem(all sides the same size
     */
-    background-color: #1e2a38
-    color: #fdfdfd
+    background-color: #1e2a38;
+    color: #fdfdfd;
+}
+header > img{
+    width: auto;
+    height: 150px;
+}
+header > nav > menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header > nav > menu > li > a{
+    color: #fdfdfd;
+    text-decoration: none;
+    font-weight: 700;
+}
+header > nav > menu > li > a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+/*Hero/Masthead */
+main > section{
+    min-height: 50vh;
+
+}
+main > section > div{
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #f2f2f2;
+    text-align: center;
+    border: 4px solid #222222;
+    /*border height, type and color*/
+}
+main > section > div > h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+main > section + section{
+    /* this is a sibling selector, it will select the next section after the first section*/
+    padding: 3rem 5%;
+}
+main > section + section > div > figure > img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+main > section + section > div > figure > img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+main > section + section > div > figure > figcaption{
+    
+    
+}
+main > section + section + section{
+    padding: 3rem 5%;
+}
+main > section + section + section > div > iframe
+main > section + section + section > div > video{
+    max-width: 100%;
+    width: 100%;
+    min-height: 600px;
 }
