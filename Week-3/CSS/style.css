@@ -1,0 +1,22 @@
+/* 
+    CSS selector types:
+    - Simple selectors - target elements based on one property
+    
+*/
+-----------------------------------------------------
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #222222;
+}
+header{
+    padding: 1rem 2rem;
+    /* longform is to write out left right top bottom with the rem values in it 
+    1rem (top bottom) 2rem (left right)
+    padding 1.5rem(top) 2.3rem(right) 1.78rem(bottom) 2.8rem(left)
+    padding irem(all sides the same size
+    */
+    background-color: #1e2a38
+    color: #fdfdfd
+}
