@@ -74,10 +74,7 @@ main > section + section > div > figure > img{
     height: auto;
     display: block;
 }
-main > section + section > div > figure > figcaption{
-    
-    
-}
+
 main > section + section + section{
     padding: 3rem 5%;
 }
