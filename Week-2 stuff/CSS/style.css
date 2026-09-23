@@ -3,20 +3,19 @@
 }
 
 body {
-    background-image:url('./gif/Rain.gif');
-    background-size:100%;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-    height:100%;
-    width:100%;
-}
-
-body {
   background-color: #1e2a38;;
 }
 
-body > header{
-    padding: 3rem 3rem;
-    Width: 10px;
-    height: 10px;
+body > header > img{
+    padding: 1rem 1rem;
+    width: 25%;
+    height: auto;
+}
+
+body > header > figure > figcaption{
+    padding: 50rem -50rem;
+    font-size: 100px;
+    display: inline-block;
+    text-shadow: 2px 2px;
+    color:blanchedalmond
 }
