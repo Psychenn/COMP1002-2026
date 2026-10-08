@@ -1,0 +1,26 @@
+body{
+    background-image: url("..img/background.gif");
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+body > header > img{
+    padding: 1rem 1rem;
+    height: 150px;
+    width: auto;
+    float: left;
+}
+body > header > h1{
+    padding: 1rem 1rem;
+    font-size: 3rem;
+    text-align: left;
+    color: #FFD500;
+}
+body > header > h2{
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    text-align: left;
+    color: #FFD500;
+}
