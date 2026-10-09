@@ -1,7 +1,8 @@
 body{
     background-image: url("..img/background.gif");
-    background-color: #241b64;
+    background-color: #100943;
     font-family: "Arial", sans-serif;
+    color:#ab5073
 }
 body > header{
     text-decoration-style: bold;
@@ -15,21 +16,26 @@ body > header > img{
     float: left;
 }
 body > header > h1{
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: left;
     color: #c811f6;
     padding-top: 3rem;
 }
 body > header > h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: left;
     color: #c811f6;
-    margin-top: -55px;
+    margin-top: -60px;
 }
+body > audio{
+    padding-left: 40%;
+}
+
 body > main{
-    color: #c811f6
-    
-}
-body > footer{ 
-    color: #de116a;
+    font-family: Georgia;
+    color: #c811f6;
+    font-size: 1.8rem;
+    letter-spacing: 0.03rem;
+    padding-left: 2rem;
+    line-height: 1.5;
 }
