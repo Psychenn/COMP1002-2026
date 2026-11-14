@@ -1,0 +1,29 @@
+html{
+    background-image: url("../Poster/Poster No Text.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70vh;
+    margin: 10%;
+    background-color: #a6d3e8;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    float: center;
+
+}
+body{
+
+}
+body > h1{
+    font-size: 20px;
+    padding-bottom: 300px;
+}
+body > header{
+    font-size: 7em;
+    float: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+body > main{
+    font-size: 0.8em;
+}
