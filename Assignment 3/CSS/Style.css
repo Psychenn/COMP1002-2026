@@ -14,19 +14,20 @@ html{
 body{
 
 }
-body > h1{
+body > header{
     font-size: 20px;
     margin-bottom: 400px;
 }
-body > header{
+body > h1{
     font-size: 150px;
     float: center;
     text-shadow: 2px 2px 4px #000000;
     margin-top: 300px;
+    margin-bottom: -10px;
 }
 body > img{
-    width: 400px;
-    height: auto;
+    width: 500px;
+    height: 200px;
     margin-top: -200px;
     margin-bottom: -10px;
     opacity: 0.8;
