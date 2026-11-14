@@ -1,0 +1,1 @@
+Put very semi transparent blue under the image and comment that it's for contrast in the CSS.
